@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="app.css"/>
+</head>
+
+<body>
+
+    <h1><p id="cookie-text">0</p></h1>
+    
+
+<p></p>
+
+<style>
+    .myDiv{
+        text-align: center;
+    }
+
+</style>
+
+
+<div class ="myDiv">
+<button
+    onClick="clickster()"value='click' class="block" >click</button>
+</div>
+
+
+<script>
+var cookies = 0;
+
+function clickster() {
+    cookies +=1;
+    document.getElementById('cookie-text').innerHTML = " " + cookies;
+}
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+</html>

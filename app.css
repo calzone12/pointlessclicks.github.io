@@ -1,0 +1,49 @@
+
+
+h1{
+    text-align: center;
+    margin: 500;
+    font-family: sans-serif;
+    color :rgb(255, 255, 159);
+    font-size: 400%;
+   
+    
+}
+
+
+
+Body {
+    background-color: rgb(53, 53, 53);
+    background-image: url("IMG_0860.png");
+    margin: 0;
+    font-family: system-ui;
+}
+
+p {
+    font-family: system-ui;
+    color :rgb(255, 255, 159);
+    text-align: center;
+    font-size: 350%;
+}
+
+.button {
+ 
+    color :rgb(53, 53, 53);
+    text-align: center;
+    font-size: 1500%;
+
+}
+::selection { background: transparent; }
+
+button {
+    background-color:rgb(39, 39, 39); /* Green */
+    border: none;
+    color: rgb(39, 39, 39);
+    padding: 100px 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  
+    
+}
